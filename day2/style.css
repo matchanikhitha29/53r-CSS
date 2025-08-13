@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1{
+    color:white;
+} 
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#header {
+    background-color: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#summary, #education, #experience, #projects, #certifications, #skills {
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+strong {
+    color: hsl(210, 75%, 60%);
+}

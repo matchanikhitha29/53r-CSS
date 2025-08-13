@@ -1,0 +1,11 @@
+selectors:By using selectors we used to target specific HTML element so you can apply styles to them.
+
+1. Simple Selectors:
+    --> id selector: (#)
+    --> class selector: (.)
+    --> Element selector: (element tag)
+    --> Grouping selector: (,)
+    --> Universal selector: (*)
+
+2. Combinator Selectors:
+    --> 
