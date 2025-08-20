@@ -9,15 +9,14 @@ body{
     font-weight:none;
 }
 
-header{
-    display:flex;
-    width:100%;
-    background-color:white;
+.header .headermenu{
+    display:inline-block;
+    padding-left:10%;
+    padding-right:10%;
+    margin-left:7%;
+    background-color: white;
     color:black;
-    justify-content:space-between;
-    padding:30px 60px;
-    position:fixed;
-    top:0;
+    margin-top:20px;
 }
 
 a img{
@@ -25,26 +24,22 @@ a img{
     width:30px;
 }
 
-.section_1{
-    height:700px;
-    margin-top:140px;
-    margin-left:70px;
-    margin-right:70px;
-}
-
 .container_1{
-    display:flex;
+    width:100%;
+    margin-left:60px;
 }
 
-.items{
-    margin:7px;
-    height:400px;
+.container_1 >.items{
+    display:inline-block;
+    width:20%;
+    margin:20px;
 }
 
 .items .img{
     height:500px;
     width:340px;
     margin-bottom:20px;
+    margin-top:0px;
 }
 
 .items .heading{
@@ -59,24 +54,22 @@ a img{
     margin-bottom:0;
 }
 
-.section_2{
-    height:700px;
-    margin:70px;
-}
-
 .container_2{
-    display:flex;
+    width:100%;
+    margin-left:60px;
 }
 
-.items2{
-    margin:7px;
-    height:400px;
+.container_2 >.items2{
+    display:inline-block;
+    width:20%;
+    margin:20px;
 }
 
 .items2 .img2{
     height:500px;
     width:340px;
     margin-bottom:20px;
+    margin-top:0px;
 }
 
 .items2 .heading2{
@@ -122,8 +115,21 @@ a img{
     font-size:20px;
 }
 
+/* .footer{
+    gap:40px;
+    padding:20px 40px; 
+    justify-content: space-around;
+    border-top:solid 1px #eee;
+    margin:60px;
+}
+
 .footer{
-    display:flex;
+    margin:40px;
+    width:100%;
+}
+
+.footer_section{
+    display:inline-block;
     gap:40px;
     padding:20px 40px; 
     justify-content: space-around;
@@ -174,8 +180,34 @@ a img{
     background:#555;
     color:white;
     padding:5px 10px;
+} */
+
+.footer{
+    display:inline-block;
+    width:100%;
+    margin-left:5%;
+    margin-bottom:5%;
 }
 
+.footer .part1,.part2,.part3{
+    display:inline-block;
+    width:33%;
+}
+
+.part2 img{
+    width:50px;
+    height:50px;
+}
+
+.part2 h5,p{
+    display:inline-block;
+}
+
+.part3>span{
+    background-color: black;
+    color:white;
+    margin-left:2%;;
+}
 
 
 
