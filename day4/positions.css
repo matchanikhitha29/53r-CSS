@@ -20,7 +20,7 @@
     font-weight: bold;
     font-size: 18px;
     letter-spacing: 2px;
-    padding:20px;
+    padding:10px;
 }
 
 .navbar .menu {
@@ -80,8 +80,8 @@
     background-color:black;
     color:white;
     position:absolute;
-    top:0;
     padding:10px;
+    top:0;
 }
 
 .section_3{
@@ -150,7 +150,7 @@
     margin:10px 20px 10px 35px;
 }
         
-.footer p{
+.footer .p{
     width:100%;
     color: white;
     background-color: black;
